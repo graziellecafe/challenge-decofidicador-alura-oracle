@@ -1,4 +1,3 @@
-//* função para exibir textos de saída 
 const exibirTextoSaida = (tag, texto) => {
   const textoSaida = document.querySelector(tag);
   textoSaida.innerHTML = texto;       

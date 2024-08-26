@@ -21,8 +21,6 @@ A escolha das cores e do projeto foram baseados no meu sobrenome "Café" remeten
 
 <img src="assets/projeto-finalizado.png"><br> 
 
-![Gravação Vídeo Final](gravacao-projeto-final.mov)
-
 
 <h3>▪️ Explicando as funções no JavaScript</h3>
 <br>
