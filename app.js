@@ -4,7 +4,6 @@ const exibirTextoSaida = (tag, texto) => {
   textoSaida.innerHTML = texto;       
 }
 
-//* ocultar imagem, limpar o h3 e mostrar o botão copiar
 const output = () => {
   document.getElementById("coffee-img").style.display = "none";
   exibirTextoSaida("h3", " " );
@@ -16,7 +15,6 @@ const output = () => {
   document.getElementById("textoOutput").style.visibility = "visible";
 }
 
-//*função para remover diacriticos
 const removerDiacriticos = (str) => {
   return str
   .normalize("NFD")
@@ -24,7 +22,6 @@ const removerDiacriticos = (str) => {
   .replace(/[^a-zA-Z\s]/g, "");
 }
 
-//*função para criptografar o texto
 const criptografar = () => {
   const inputTexto = document.querySelector("#inputTexto").value;
 
@@ -46,7 +43,6 @@ const criptografar = () => {
   }
 }
 
-//*função para descriptografar o texto
 const descriptografar = () => {
   const inputTexto = document.querySelector("#inputTexto").value;
 
@@ -68,7 +64,6 @@ const descriptografar = () => {
   }
 }
 
-//*função para copiar o texto 
 const botaoCopiarTexto = async () => {
   const textoCopiado = document.getElementById("textoOutput").innerText;
 

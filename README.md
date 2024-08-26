@@ -2,9 +2,9 @@
 
 <h3>▪️ O codificador e decodificador de textos</h3>
 
-Esse é um projeito para entrega do Challenge do curso de formação de iniciantes em programação através da Oracle em parceria com a Alura. 
+Esse é um projeto para entrega do Challenge do curso de formação de iniciantes em programação através da Oracle em parceria com a Alura. 
 
-O obejtivo do desafio é criar um programa para criptografar e descriptografar textos seguindo as instruções do desafio.
+O objetivo do desafio é criar um programa para criptografar e descriptografar textos seguindo as instruções do desafio.
 
 <h3>▪️ As "chaves" que foram utilizadas para a criptografia: 🗝️</h3> <br>
 
@@ -19,7 +19,9 @@ A letra "u" é convertida para "ufat"<br>
 A escolha das cores e do projeto foram baseados no meu sobrenome "Café" remetendo ao momento de "Coffee Break" como pausa para um café e ao de "quebrar algo", no caso de criptografar e descriptografar um texto. 
 <br><br>
 
-<img src="assets/coffee_principal.png" width="50%"><br> 
+<img src="assets/projeto-finalizado.png"><br> 
+
+![Gravação Vídeo Final](gravacao-projeto-final.mov)
 
 
 <h3>▪️ Explicando as funções no JavaScript</h3>
