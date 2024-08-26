@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/fox1.svg" type="image/x-icon">
+  <title>Text Decoder</title>
+  <link rel="shortcut icon" href="assets/coffee.png" type="image/x-icon">
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+  <header class="cabecalho">
+    <h1>Good day, but coffee first.</h1>
+    <img class="cabecalho__imagem" src="assets/coffee_cabecalho_1.png" alt="Xícara de café">
+  </header>
+
+  <main class="decodificador">
+    <section>
+      <h1 class="decodificador__titulo">Coffee Break: Decodifique seu código
+      </h1>
+
+      <div class="decodificador__letras__minusculas">
+       Atenção: Apenas letras minúsculas e sem acento são aceitas! </p>
+      </div> 
+
+      <form class="decodificador__caixa__mensagem" id="formulario">
+
+      <textarea placeholder="Digite seu texto"
+          id="inputTexto"
+          name="input"
+          rows="15"
+          cols="50"
+      ></textarea>
+
+      <div class="buttons__area">
+          <button type="button" class="buttons criptografar" id="btnCriptografar">Criptografar</button>
+          <button type="button" class="buttons descriptografar" id="btnDescriptografar">Descriptografar</button>
+      </div>
+      </form>
+    </section>
+
+    <div id="output">
+      <h2 id="textoOutput"></h2>
+      <img id="coffee-img"class="output-img" src="assets/coffee_principal.png">
+      <h3>Nenhuma mensagem encontrada 🫤</h3>
+      <button type="button" id="botaoCopiar" class="buttons botao-copiar">Copiar</button>
+  </div>  
+  </main>
+
+  <footer class="rodape">
+    <div>
+      <a href="https://github.com/graziellecafe" target="_blank" ><ion-icon name="logo-github"></ion-icon></a>
+      <a href="https://www.linkedin.com/in/graziellecafe/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+  </div>
+  <h4>Grazielle Café</h4>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

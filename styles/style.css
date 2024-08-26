@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap');
+
+
+:root {
+  --cor-primaria: #945f50;
+  --cor-secundaria:#A67B5B; 
+  --cor-terciaria: #ECB176; 
+  --cor-quartenaria: #e3e2e2;
+  --cor-hover: #FED8B1; 
+  --cor-button: 
+
+
+  --font-primaria: 'Montserrat', sans serif; 
+  --font-secundaria: 'League Spartan', sans-serif;
+  --font-terciaria: 'Inter', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: var(--cor-quartenaria);
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  unicode-bidi: isolate;
+  gap: 5%;
+}
+
+.cabecalho {
+  align-items: center;
+  background-color: var(--cor-primaria); 
+  color: var(--cor-terciaria);
+  display: flex;
+  font-family: var(--font-secundaria);
+  font-size: 1.5rem;
+  justify-content: space-between;
+}
+
+.cabecalho__imagem {
+  width: 180px;
+  height: auto;
+}
+
+.decodificador {
+  align-items: center;
+  background-color: var(--cor-quartenaria);
+  display: flex;
+  justify-content: space-between;
+  padding: 3% 15%;
+}
+
+.decodificador__titulo {
+  color: var(--cor-secundaria);
+  font-family: var(--font-secundaria);
+  font-size: 60px;
+  font-style: normal;
+  padding-bottom: 20px;
+}
+
+.decodificador__letras__minusculas {
+  font-family: var(--font-primaria);
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px; 
+}
+
+#inputTexto {
+  width: 50%;
+  font-size: 1.5rem;
+  background: transparent;
+  border: none; 
+  outline: 0;
+  text-transform: lowercase;
+  margin-top: 5%;
+  margin-left: 5%;
+  resize: none;
+}
+
+.buttons_area {
+  display: flex;
+	justify-content: space-between;
+  margin: 0 15% 0 15%;
+}
+
+.buttons {
+  border-radius: 24px;
+  font-size: 1rem;
+  font-family: var(--font-primaria);
+  font-weight: 600; 
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.botao-copiar {
+  color: var(--cor-primaria);
+  background-color: var(--cor-terciaria);
+  border: none;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.criptografar {
+  color: var(--cor-primaria);
+  background-color: var(--cor-terciaria);
+  border: none;
+}
+
+.criptografar:hover {
+  border: 2px solid var(--cor-hover);
+  transition: 1s all;
+}
+
+.descriptografar {
+  color: var(--cor-primaria);
+  background-color: var(--cor-terciaria);
+  border: none;
+}
+
+.descriptografar:hover {
+  border: 2px solid var(--cor-hover);
+  transition: 1s all; 
+}
+
+#output {
+  align-items: center;
+  background-color: var(--cor-principal);
+  border-radius: 32px;
+  box-shadow: 0.5px 0.5px 0.5rem var(--cor-terciaria);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 580px;
+  gap: 4%;
+  margin-top: 10%;
+  padding: 3rem;
+  width: 250px;
+}
+
+.output-img {
+  width: 120%;
+  transition: transform 0.5s ease; 
+}
+
+.output-img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease; 
+}
+
+.botao-copiar {
+  visibility: hidden;
+  pointer-events: none;
+  color: var(--cor-primaria);
+  background-color: var(--cor-terciaria);
+}
+
+h2 {
+  display: flex;
+  flex-direction: column;
+  word-break: break-word;
+  overflow: hidden;
+  overflow: auto;
+  font-size: 1.25rem;
+  color: var(--cor-ternaria);
+  font-weight: 300;  
+  height: 80%;  
+}
+
+h3 {
+  align-items: center;
+  color: var(--cor-primaria);
+  border: none;
+  font-family: var(--font-primaria);
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+.rodape {
+  background-color: var(--cor-primaria);
+  bottom: 0; 
+  color: var(--cor-terciaria);
+  display: flex; 
+  font-family: var(--font-secundaria);
+  font-size: 2rem;
+  font-weight: 600px;
+  justify-content: center;
+  gap: 80px; 
+  padding: 2.5rem;
+  width: 100%;
+}
