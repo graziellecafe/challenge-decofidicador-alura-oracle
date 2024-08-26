@@ -44,6 +44,7 @@ main {
   font-family: var(--font-secundaria);
   font-size: 1.5rem;
   justify-content: space-between;
+  padding: 0rem 5rem;
 }
 
 .cabecalho__imagem {
