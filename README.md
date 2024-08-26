@@ -46,6 +46,6 @@ Função para descriptografar o texto;<br>
 Função para copiar o texto de saída para a área de transferência;<br>
 
 
-Link do programa: https://decoder-fox.vercel.app/
+Link do programa: 
 
 <hr>
